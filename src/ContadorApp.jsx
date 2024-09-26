@@ -12,7 +12,7 @@ export const ContadorApp = ({ value }) => {
     <>
       <h1>Contador:</h1>
       <p>{contador}</p>
-      <button onClick={() => handleClick(value)}>Soy un boton</button>
+      <button onClick={() => handleClick(value)}>Haz click aqui</button>
     </>
   );
 };
